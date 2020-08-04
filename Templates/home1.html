@@ -1,0 +1,60 @@
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <style>
+      .inputfile{
+        width: 0.1px;
+        height: 0.1px;
+        opacity: 0;
+        overflow: hidden;
+        position: absolute;
+        z-index: -1;
+      }
+      .inputfile + label{
+        font-size:1.25em;
+        font-weight: 700;
+        color:white;
+        background-color: blue;
+        display: inline-block;
+      }
+      .inputfile:focus +label,
+        .inputfile+label:hover{
+          background-color: rgb(71, 97, 214);
+        
+      }
+    </style>
+    <title>Document</title>
+    </head>
+    <body style="background-color: rgb(213, 245, 255);">
+        <nav class="navbar navbar-expand-lg">
+            <a class="navbar-brand" href="#"><img src="PlagiarismChecker logoo.png"></a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" d
+            ata-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+              <ul class="navbar-nav">
+                <li class="nav-item">
+                  <a class="nav-item display-4 text-sm-left font-weight-bold text-md-left" style="font-family:Georgia, 'Times New Roman', Times, serif;color: black; text-decoration: none;"  href="#">Plagiarism Checker</a>
+                </li>
+              </ul>
+            </div>
+          </nav>
+          <h1 class="text-center"></h1>
+          <h3 style="font-family: Georgia, 'Times New Roman', Times, serif;">Upload File:</h3>
+          <input class="btn btn-primary" style="width: 250px; margin-left: 20px;"   type="file" name="file1" class="inputtfile"/>
+          <label for="file"></label>
+          <input class="btn btn-primary" style="width: 250px; margin-left: 20px;"   type="file" name="file2" class="inputtfile"/>
+          <br><br><br>
+          <button type="submit" class="btn btn-primary col-sm-3" style="margin-left:750px;width: 250px;"><h4 style="font-family: Georgia, 'Times New Roman', Times, serif;">Check Plagiarism</h4></button>
+        </form>
+<br><br><br>
+           <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+    </body>
+    </html>
